@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Subscription Failure</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .failure-icon {
+            font-size: 4rem;
+        }
+        .failure-card {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container failure-card">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <div class="text-danger failure-icon">
+                            <i class="fas fa-times-circle"></i>
+                        </div>
+                        <h1 class="card-title text-danger mt-3">Subscription Failed</h1>
+                        <p class="card-text">We encountered an issue with your subscription. Please try again later or contact our support team.</p>
+                        <a href="/" class="btn btn-primary mt-3">Return to Homepage</a>
+                        <a href="/contact" class="btn btn-secondary mt-3">Contact Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
